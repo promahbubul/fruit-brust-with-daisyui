@@ -2,4 +2,4 @@
 
 [Website Link](https://fruit-brust-website.netlify.app/)
 
-![screenshot](./images/demo.png)
+![screenshot](./images/Demo.png)
