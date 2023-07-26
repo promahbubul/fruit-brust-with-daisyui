@@ -1,5 +1,5 @@
 # Demo
 
-[Website Link](https://biker-zone-dasiyui.netlify.app/)
+[Website Link](https://fruit-brust-website.netlify.app/)
 
 ![screenshot](./images/demo.png)
