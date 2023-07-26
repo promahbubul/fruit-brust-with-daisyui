@@ -129,21 +129,21 @@
                         class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 ">
                         <li>
                             <a href="#"
-                                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent  md:p-0 md:dark:text-blue-500"
+                                class="block py-2 pl-3 pr-4 text-[#f85559] rounded md:bg-transparent  md:p-0 md:dark:text-blue-500 hover:bg-[#f85559]  hover:text-white"
                                 aria-current="page">Home</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent text-white">About
+                                class="block py-2 pl-3 pr-4  rounded hover:bg-[#f85559]  hover:text-white md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent text-[#f85559]">About
                                 Us</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent text-white">Shop</a>
+                                class="block py-2 pl-3 pr-4  rounded hover:bg-[#f85559]  hover:text-white md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent text-[#f85559]">Shop</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent text-white">All
+                                class="block py-2 pl-3 pr-4  rounded hover:bg-[#f85559]  hover:text-white md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent text-[#f85559]">All
                                 Fruits</a>
                         </li>
                     </ul>
@@ -274,15 +274,15 @@
     <!-- End Header -->
 
     <!-- Main -->
-    <main class="w-11/12 mb-28 mt-10  m-auto">
+    <main class="w-11/12  mt-10  m-auto">
         <!-- Deal Section -->
         <section class="deal ">
             <!-- Deal top -->
             <div class="deal-top flex flex-col lg:flex-row w-full justify-between items-center">
                 <!-- Deal top left -->
                 <div class="deal-topLeft space-y-6 w-full lg:w-1/2">
-                    <h3 class="text-5xl text-[#121212] font-extrabold lato">Deal of the day</h3>
-                    <p class=" text-[#12121299]  text-base font-medium max-w-[625px] ">
+                    <h3 class="text-xl text-center lg:text-left lg:text-5xl text-[#121212] font-extrabold lato">Deal of the day</h3>
+                    <p class=" text-[#12121299] text-sm text-center lg:text-left lg:text-base font-medium max-w-[625px] ">
                         Contrary to popular belief, is not
                         simply random
                         text. It has roots in a piece of
@@ -290,7 +290,8 @@
                 </div>
                 <!-- Deal top right -->
                 <div class="deal-topRight w-full lg:w-1/2">
-                    <div class="grid grid-flow-col lg:gap-5 text-center auto-cols-max justify-evenly mt-10 lg:justify-end items-center">
+                    <div
+                        class="grid grid-flow-col lg:gap-5 text-center auto-cols-max justify-evenly mt-10 lg:justify-end items-center">
                         <div class="flex gap-2 flex-col">
                             <span class="countdown lato lato font-[900] text-5xl">
                                 <span style="--value:15;"></span>
@@ -365,11 +366,11 @@
                             <!-- Open the modal using ID.showModal() method -->
                             <button class="text-[#F85559] font-bold  " onclick="my_modal_1.showModal()">Details</button>
                             <dialog id="my_modal_1" class="modal">
-                                <form method="dialog" class="modal-box flex flex-col justify-center items-center py-20">
+                                <form method="dialog" class="modal-box flex flex-col justify-center items-center py-10">
                                     <div class="flex justify-center gap-3 items-center flex-col">
                                         <img src="./images/fruit6.png" alt="">
                                         <h3 class="text-[#121212] lato text-4xl lato font-black">Apples</h3>
-                                        <p class="py-4 text-[#12121299] text-base font-medium w-96">
+                                        <p class="py-4 text-[#12121299] text-base font-medium w-full">
                                             Professional employees are there for you to pick the most amazing
                                             and fresh fruits.</p>
                                     </div>
@@ -447,11 +448,11 @@
                             <!-- Open the modal using ID.showModal() method -->
                             <button class="text-[#F85559] font-bold  " onclick="my_modal_2.showModal()">Details</button>
                             <dialog id="my_modal_2" class="modal">
-                                <form method="dialog" class="modal-box flex flex-col justify-center items-center py-20">
+                                <form method="dialog" class="modal-box flex flex-col justify-center items-center py-10 lg:py-20">
                                     <div class="flex justify-center gap-3 items-center flex-col">
                                         <img src="./images/fruit7.png" alt="">
                                         <h3 class="text-[#121212] lato text-4xl lato font-black">Orange</h3>
-                                        <p class="py-4 text-[#12121299] text-base font-medium w-96">
+                                        <p class="py-4 text-[#12121299] text-base font-medium w-auto lg:w-96">
                                             Professional employees are there for you to pick the most amazing
                                             and fresh fruits.</p>
                                     </div>
@@ -529,11 +530,11 @@
                             <!-- Open the modal using ID.showModal() method -->
                             <button class="text-[#F85559] font-bold  " onclick="my_modal_3.showModal()">Details</button>
                             <dialog id="my_modal_3" class="modal">
-                                <form method="dialog" class="modal-box flex flex-col justify-center items-center py-20">
+                                <form method="dialog" class="modal-box flex flex-col justify-center items-center py-10 lg:py-20">
                                     <div class="flex justify-center gap-3 items-center flex-col">
                                         <img src="./images/fruit8.png" alt="">
                                         <h3 class="text-[#121212] lato text-4xl lato font-black">Red Dragon</h3>
-                                        <p class="py-4 text-[#12121299] text-base font-medium w-96">
+                                        <p class="py-4 text-[#12121299] text-base font-medium w-auto lg:w-96">
                                             Professional employees are there for you to pick the most amazing
                                             and fresh fruits.</p>
                                     </div>
@@ -611,11 +612,11 @@
                             <!-- Open the modal using ID.showModal() method -->
                             <button class="text-[#F85559] font-bold  " onclick="my_modal_4.showModal()">Details</button>
                             <dialog id="my_modal_4" class="modal">
-                                <form method="dialog" class="modal-box flex flex-col justify-center items-center py-20">
+                                <form method="dialog" class="modal-box flex flex-col justify-center items-center py-10 lg:py-20">
                                     <div class="flex justify-center gap-3 items-center flex-col">
                                         <img src="./images/fruit9.png" alt="">
                                         <h3 class="text-[#121212] lato text-4xl lato font-black">Banana</h3>
-                                        <p class="py-4 text-[#12121299] text-base font-medium w-96">
+                                        <p class="py-4 text-[#12121299] text-base font-medium w-auto lg:w-96">
                                             Professional employees are there for you to pick the most amazing
                                             and fresh fruits.</p>
                                     </div>
@@ -668,7 +669,7 @@
         </section>
         <!-- End Deal Section -->
         <!-- Team Section -->
-        <section class="team  mt-28">
+        <section class="team mt-10 lg:mt-28">
             <div class="hero rounded-lg " style="background-image: url(./images/banner1.png);">
                 <div class="hero-overlay rounded-lg bg-opacity-0"></div>
                 <div
@@ -676,7 +677,8 @@
                     <!-- Team Top -->
                     <div class="max-w-md">
                         <h1 class="mb-5 text-xl lg:text-5xl text-[#fff] font-black">Meet the team section</h1>
-                        <p class="mb-5 text-sm lg:text-base">Contrary to popular belief, is not simply random text. It has roots in a piece
+                        <p class="mb-5 text-sm lg:text-base">Contrary to popular belief, is not simply random text. It
+                            has roots in a piece
                             of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 
                     </div>
@@ -788,23 +790,24 @@
         </section>
         <!-- End Team Section -->
         <!-- Services Section -->
-        <section class="team  mt-28">
+        <section class="team mt-6 lg:mt-28">
             <!-- Service Top -->
             <div class="service-top text-center space-y-6">
-                <h3 class="text-[#121212] font-black text-5xl lato ">Why Choose Us</h3>
-                <p class="w-[615px] m-auto text-base font-normal text-[#12121299]">Contrary to popular belief, is not
+                <h3 class="text-[#121212] font-black text-xl lg:text-5xl lato ">Why Choose Us</h3>
+                <p class="w-auto lg:w-[615px] m-auto text-sm lg:text-base font-normal text-[#12121299]">Contrary to
+                    popular belief, is not
                     simply random text. It has roots in a piece of classical
                     Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <!-- End Service Top -->
             <!-- Service Bottom -->
-            <div class="service-bottom flex flex-row gap-6 mt-12 w-full">
+            <div class="service-bottom flex flex-col lg:flex-row gap-6 mt-12 w-full">
                 <!-- Service Bottom Left -->
-                <div class="service-bottomLeft w-full">
+                <div class="service-bottomLeft space-y-5 order-2 lg:order-1 w-full">
                     <!-- Service List 1 -->
-                    <div class="flex flex-row gap-5">
+                    <div class="flex flex-col justify-center items-center lg:flex-row gap-5 ">
                         <img class="w-14 h-16" src="./images/icons/member.png" alt="">
-                        <div class="space-y-5">
+                        <div class="space-y-5 flex  justify-center items-center flex-col text-center">
                             <h4 class="text-[#121212] font-black text-2xl ">Dedicated Team</h4>
                             <hr class="w-24 h-[3px] bg-[#f85559]">
                             <p class="text-[#12121299] font-medium text-base">Professional employees are there for you
@@ -812,9 +815,9 @@
                         </div>
                     </div>
                     <!-- Service List 2 -->
-                    <div class="flex flex-row gap-5">
+                    <div class="flex flex-col justify-center items-center lg:flex-row gap-5">
                         <img class="w-14 h-16" src="./images/icons/love.png" alt="">
-                        <div class="space-y-5">
+                        <div class="space-y-5 flex justify-center items-center flex-col text-center">
                             <h4 class="text-[#121212] font-black text-2xl ">Fresh is Best</h4>
                             <hr class="w-24 h-[3px] bg-[#f85559]">
                             <p class="text-[#12121299] font-medium text-base">Professional employees are there for you
@@ -822,9 +825,9 @@
                         </div>
                     </div>
                     <!-- Service List 3 -->
-                    <div class="flex flex-row gap-5">
+                    <div class="flex flex-col justify-center items-center lg:flex-row gap-5">
                         <img class="w-14 h-16" src="./images/icons/gift.png" alt="">
-                        <div class="space-y-5">
+                        <div class="space-y-5 flex justify-center items-center flex-col text-center">
                             <h4 class="text-[#121212] font-black text-2xl ">Gift Certificates</h4>
                             <hr class="w-24 h-[3px] bg-[#f85559]">
                             <p class="text-[#12121299] font-medium text-base">Professional employees are there for you
@@ -833,15 +836,15 @@
                     </div>
                 </div>
                 <!-- Service Bottom Middle -->
-                <div class="service-bottomMiddle w-full">
+                <div class="service-bottomMiddle order-1 lg:order-2 w-full">
                     <img class="w-full h-full" src="./images/whychoose1.png" alt="">
                 </div>
                 <!-- Service Bottom Right -->
-                <div class="service-bottomRight w-full">
+                <div class="service-bottomRight space-y-5 order-3 lg:order-3 w-full">
                     <!-- Service List 1 -->
-                    <div class="flex flex-row-reverse   gap-5">
+                    <div class="flex flex-col justify-center items-center lg:flex-row gap-5">
                         <img class="w-14 h-16" src="./images/icons/supliear.png" alt="">
-                        <div class="space-y-5 text-right">
+                        <div class="space-y-5 flex justify-center items-center flex-col text-center lg:text-right">
                             <h4 class="text-[#121212] font-black text-2xl ">Integrated Supplier</h4>
                             <hr class="w-24 h-[3px] inline-block text-right bg-[#f85559]">
                             <p class="text-[#12121299] font-medium text-base">Professional employees are there for you
@@ -849,9 +852,9 @@
                         </div>
                     </div>
                     <!-- Service List 2 -->
-                    <div class="flex flex-row-reverse   gap-5">
+                    <div class="flex flex-col justify-center items-center lg:flex-row gap-5">
                         <img class="w-14 h-16" src="./images/icons/practice.png" alt="">
-                        <div class="space-y-5 text-right">
+                        <div class="space-y-5 flex justify-center items-center flex-col text-center lg:text-right">
                             <h4 class="text-[#121212] font-black text-2xl ">Sustainable Practice</h4>
                             <hr class="w-24 h-[3px] inline-block text-right bg-[#f85559]">
                             <p class="text-[#12121299] font-medium text-base">Professional employees are there for you
@@ -859,9 +862,9 @@
                         </div>
                     </div>
                     <!-- Service List 3 -->
-                    <div class="flex flex-row-reverse   gap-5">
+                    <div class="flex flex-col justify-center items-center lg:flex-row gap-5">
                         <img class="w-14 h-16" src="./images/icons/benifits.png" alt="">
-                        <div class="space-y-5 text-right">
+                        <div class="space-y-5 flex justify-center items-center flex-col text-center lg:text-right">
                             <h4 class="text-[#121212] font-black text-2xl ">The Benefits Only</h4>
                             <hr class="w-24 h-[3px] inline-block text-right bg-[#f85559]">
                             <p class="text-[#12121299] font-medium text-base">Professional employees are there for you
@@ -877,7 +880,7 @@
     <!-- End Main -->
 
     <!-- Footer -->
-    <footer class=" mt-28  bg-[#121212] py-28">
+    <footer class="mt-6 lg:mt-28  bg-[#121212] py-28">
         <div class="flex flex-col items-center gap-12 w-10/12 m-auto">
             <!-- Footer Logo -->
             <div class="flex justify-center items-center gap-3">
@@ -886,7 +889,7 @@
             </div>
             <!-- Footer Menu -->
             <div>
-                <ul class="flex flex-row text-center font-bold text-base text-[#fff] flex-wrap gap-12">
+                <ul class="flex flex-row justify-center text-center font-bold text-base text-[#fff] flex-wrap gap-5 lg:gap-12">
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
                     <li><a href="">Shop</a></li>
@@ -896,13 +899,13 @@
                 </ul>
             </div>
             <!-- Footer Social Icons -->
-            <div class="flex justify-center items-center gap-12 flex-wrap">
-                <img class="w-10" src="./images/icons/twitter.png" alt="">
-                <img class="w-10" src="./images/icons/facebook.png" alt="">
-                <img class="w-10" src="./images/icons/youtube.png" alt="">
-                <img class="w-10" src="./images/icons/linkedin.png" alt="">
-                <img class="w-10" src="./images/icons/instragram.png" alt="">
-                <img class="w-10" src="./images/icons/apple.png" alt="">
+            <div class="flex justify-center items-center gap-4 lg:gap-12 flex-wrap">
+                <img class="w-8 lg:w-10" src="./images/icons/twitter.png" alt="">
+                <img class="w-8 lg:w-10" src="./images/icons/facebook.png" alt="">
+                <img class="w-8 lg:w-10" src="./images/icons/youtube.png" alt="">
+                <img class="w-8 lg:w-10" src="./images/icons/linkedin.png" alt="">
+                <img class="w-8 lg:w-10" src="./images/icons/instragram.png" alt="">
+                <img class="w-8 lg:w-10" src="./images/icons/apple.png" alt="">
             </div>
         </div>
 
